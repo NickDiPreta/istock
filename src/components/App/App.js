@@ -20,25 +20,25 @@ function App() {
   return (
     <div>
       <nav>
-        <Link to="/">
+        <Link to="/istock/Home">
           <h1>Home</h1>
         </Link>
-        <Link to="/Stocks">
+        <Link to="/istock/Stocks">
           <h2>Stocks</h2>
         </Link>
-        <Link to="/About">
+        <Link to="/istock/About">
           <h2>About</h2>
         </Link>
-        <Link to="/Company">
+        <Link to="/istock/Company">
         </Link>
       </nav>
       <main>
         <Switch>
-          <Route path="/Stocks" handleClick={handleClick} component={Stocks} />
-          <Route path="/" exact component={Home} />
-          <Route path="/About" exact component={About} />
+          <Route path="/istock/Stocks" handleClick={handleClick} component={Stocks} />
+          <Route path="/istock/Home" exact component={Home} />
+          <Route path="/istock/About" exact component={About} />
           <Route
-            path="/Company/:ticker"
+            path="/istock/Company/:ticker"
             render={props => <Company {...props} />}
             />
         </Switch>

@@ -33,10 +33,18 @@ const Company = (props) => {
     makeApiCall();
   }, []);
 
+  let pClass = ""
+  let percentChange = (((details.c-details.o)/details.o)*100).toFixed(2)
+  if (percentChange < 0){
+    pClass = 'red'
+  }
+
   return (
-    <h1>
-      {realTicker} : {realCompany.company} current price is ${details.c}
-    </h1>
+    <div className="company">
+    <li>
+      {realTicker}-{realCompany.company} | Price: ${details.c} | <span className={pClass}>{percentChange}%</span>
+    </li>
+    </div>
   );
 };
 

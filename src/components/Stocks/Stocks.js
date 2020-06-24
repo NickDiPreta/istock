@@ -13,12 +13,14 @@ const Stocks = (props) => {
   
   let all = Dow.map((company) => {
     return (
-      <Link to={"/Company/" + company.ticker}>
+     
+      <Link to={"/istock/Company/" + company.ticker}>
         <Company handleClick={props.handleClick} ticker={company.ticker} company={company.company} />
       </Link>
+      
     );
   });
-  return (<div>{all}</div>);
+  return (<div className="comp-link">{all}</div>);
 };
 
 export default Stocks;
