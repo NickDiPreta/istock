@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/istock/static/css/main.6c6805c2.chunk.css",
-    "main.js": "/istock/static/js/main.efb9ffbe.chunk.js",
-    "main.js.map": "/istock/static/js/main.efb9ffbe.chunk.js.map",
+    "main.js": "/istock/static/js/main.d8ddc7d8.chunk.js",
+    "main.js.map": "/istock/static/js/main.d8ddc7d8.chunk.js.map",
     "runtime-main.js": "/istock/static/js/runtime-main.2e9ca206.js",
     "runtime-main.js.map": "/istock/static/js/runtime-main.2e9ca206.js.map",
     "static/js/2.c7361d41.chunk.js": "/istock/static/js/2.c7361d41.chunk.js",
     "static/js/2.c7361d41.chunk.js.map": "/istock/static/js/2.c7361d41.chunk.js.map",
     "index.html": "/istock/index.html",
-    "precache-manifest.8e41c5e90d46c23f7d8d2b24253a6ee8.js": "/istock/precache-manifest.8e41c5e90d46c23f7d8d2b24253a6ee8.js",
+    "precache-manifest.8192243473b9e4a745c128098544a397.js": "/istock/precache-manifest.8192243473b9e4a745c128098544a397.js",
     "service-worker.js": "/istock/service-worker.js",
     "static/css/main.6c6805c2.chunk.css.map": "/istock/static/css/main.6c6805c2.chunk.css.map",
     "static/js/2.c7361d41.chunk.js.LICENSE.txt": "/istock/static/js/2.c7361d41.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2e9ca206.js",
     "static/js/2.c7361d41.chunk.js",
     "static/css/main.6c6805c2.chunk.css",
-    "static/js/main.efb9ffbe.chunk.js"
+    "static/js/main.d8ddc7d8.chunk.js"
   ]
 }
